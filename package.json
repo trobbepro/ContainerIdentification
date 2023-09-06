@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "buildcss:debug": "cross-env TAILWIND_MODE=watch postcss ./styles/app.css -o ./dist/css/app.debug.css",
+    "buildcss:release": "cross-env NODE_ENV=production postcss ./styles/app.css -o ./dist/css/app.css",
+    "watchcss:debug": "cross-env TAILWIND_MODE=watch postcss ./styles/app.css -o ./dist/css/app.debug.css --watch"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.29",
