@@ -1,0 +1,25 @@
+@layer base {
+    html {
+        font-family: 'Lexend Deca';
+    }
+
+    h1 {
+        @apply text-[#000] font-michroma text-3xl leading-[1.60] tracking-[.12rem] sm:text-2xl sm:leading-[1.55] sm:tracking-[.08rem];
+    }
+
+    h2 {
+        @apply text-[#000]  font-michroma text-xl leading-[1.65] tracking-[0.04rem];
+    }
+
+    h3 {
+
+    }
+
+    input[type="text"], input[type="password"] {
+        @apply surface-primary text-primary border border-primary placeholder:text-placeholder rounded-input
+    }
+
+    label {
+        
+    }
+}
