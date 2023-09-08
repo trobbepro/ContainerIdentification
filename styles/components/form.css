@@ -1,0 +1,5 @@
+@layer components {
+    .login-form {
+        @apply grid place-items-center justify-items-stretch grid-cols-6 gap-m;
+    }
+}
