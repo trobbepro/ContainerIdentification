@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Container Identification</title>
-</head>
-<body>
-</body>
+    <link rel="stylesheet" href="dist/css/app.debug.css" />
+  </head>
+  <body class="w-full flex h-screen">
+    <div
+      class="container-login"
+    >
+      <div class="container-login-content">
+        <h1 class=" text-primary col-start-2">Bienvenue</h2>
+        <form
+          class="login-form"
+        >
+          <div class="col-span-3 flex flex-col">
+            <label for="first_name" class="">First name</label>
+            <input
+              type="text"
+              id="first_name"
+              class="items-stretch border-neutral-300"
+              placeholder="John"
+              required
+            />
+          </div>
+          <div class="col-span-3 flex flex-col">
+            <label for="last_name" class="">Last name</label>
+            <input
+              type="text"
+              id="last_name"
+              class="items-stretch"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          <div class="col-span-6 flex flex-col">
+            <label for="company" class="">Company</label>
+            <input
+              type="text"
+              id="company"
+              class="items-stretch"
+              placeholder="Flowbite"
+              required
+            />
+          </div>
+          <input type="submit" class="btn" value="Valider" />
+        </form>
+      </div>
+    </div>
+    <div class="container-login-right"></div>
+  </body>
 </html>
