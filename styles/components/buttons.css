@@ -1,0 +1,5 @@
+@layer components {
+    .btn {
+        @apply surface-brand text-button rounded-button py-xs px-s hover:surface-hover transition ease-in-out duration-300 text-base leading-normal w-fit;
+    }
+}
